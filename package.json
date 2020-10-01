@@ -1,0 +1,30 @@
+{
+  "name": "sample-2020-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "echo \"hello\"",
+    "start": "DEBUG=http node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maershov/front_sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maershov/front_sample"
+  },
+  "homepage": "https://github.com/maershov/front_sample",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
